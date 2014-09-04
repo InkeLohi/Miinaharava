@@ -1,0 +1,13 @@
+Aihe: Miinaharava-peli. Toteutetaan toimiva miinaharava-peli, jossa käyttäjä saa tietynkokoisen ruudukon, jossa on tietty määrä miinoja (mahdollisesti myös mahdollisuus säädellä näitä?). Järjestälmä arpoo miinat aina satunnaisesti pitkin pelilautaa.
+
+Peliä pelataan painamalla nappia. Jos napin alla tai sen viereisissä ruuduissa (ylös, alas, sivuille tai kulmittain) ei ole miinoja, avautuu se tyhjänä. Jos ruudun vieressä on miina/miinoja, kertoo ruutu niiden lukumäärän. Jos kyseisessä ruudussa on miina, tulee ilmoitus miinasta, ja peli päättyy. Käyttäjällä tulee myös olla mahdollisuus merkata miinoiksi arvaamiaan ruutuja, niin että niitä pystyy välttämään. Pelin voittaa, jos pelaaja onnistuu merkkaamaan miinat oikein, ja avaamaan kaikki tyhjät ruudut. TÄllöin pelaaja voittaa pelin.
+
+Käyttäjät: Pelaaja
+
+Käyttäjän toiminnot:
+	- Pelin aloitus, tason valinta. 
+		- Mahdollisesti haluamansa kokoisen ruudukon ja miinojen määrien valinta
+	- Ruudun avaaminen
+		- Peli jatkuu, jos ruudussa ei ole miinaa
+	- Miinan merkkaaminen
+		- Peli päättyy myös kun kaikki miinat on merkitty oikein ja loput tyhjät ruudut avattu
